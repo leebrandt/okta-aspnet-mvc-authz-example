@@ -1,4 +1,5 @@
-﻿using Microsoft.Owin.Security.Cookies;
+﻿using AuthzExample.Helpers;
+using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OpenIdConnect;
 using System.Web;
 using System.Web.Mvc;
@@ -37,13 +38,13 @@ namespace AuthzExample.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        [Authorize]
+        [OktaAuthorize]
         public ActionResult Profile() => View();
 
-        [Authorize(Roles = "Enthusiasts")]
+        [OktaAuthorize(Roles = "Enthusiasts")]
         public ActionResult Enthusiast() => View();
 
-        [Authorize(Roles = "Admin")]
+        [OktaAuthorize(Roles = "Admin")]
         public ActionResult Admin() => View();
     }
 }
