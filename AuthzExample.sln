@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthzExample", "AuthzExample\AuthzExample.csproj", "{B71CA838-12A2-49E8-96DE-7D0CE57E8144}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B71CA838-12A2-49E8-96DE-7D0CE57E8144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71CA838-12A2-49E8-96DE-7D0CE57E8144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71CA838-12A2-49E8-96DE-7D0CE57E8144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71CA838-12A2-49E8-96DE-7D0CE57E8144}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68A55F03-54A2-430D-A0A7-0C54DA39A342}
+	EndGlobalSection
+EndGlobal
